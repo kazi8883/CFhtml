@@ -1,0 +1,19 @@
+/* @font-face{
+    src: url('font/Roboto-Thin.ttf');
+    font-family: robotomonothin;
+}
+@font-face{
+    src: url('font/Roboto-ThinItalic.ttf');
+    font-family: robotomonothinitalic;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: robotomonothin;
+    font-family: robotomonothinitalic;
+} */
+.ami{
+    font-size: 100px;
+}
+.fp{
+    font-size: 50px;
+}

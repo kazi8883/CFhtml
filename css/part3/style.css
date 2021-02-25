@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.box{
+    width: 300px;
+
+    background: white;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: rgb(87, 30, 30); */
+    text-align: center;
+
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px; */
+    /* margin: 50px; */
+    /* margin: 20px auto; */
+    /* padding: 50px; */
+
+    border: 5px solid red;
+    padding: 50px;
+    margin: 20px;
+}

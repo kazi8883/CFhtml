@@ -1,0 +1,70 @@
+
+/* .box{
+    width: 300px;
+    background: white;
+    text-align: center;
+
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: seagreen;
+    outline: thick solid red;
+    outline-offset: 20px;
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+} */
+
+/* p{
+    text-align: left;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px red;
+
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} */
+
+/* a{
+    text-align: center;
+} */
+
+/* h1{
+    text-align: center;
+    display: inline;
+} */
+/* a{
+    display: block;
+    text-align: center;
+} */
+
+ul li{
+    display: inline-block;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+    /* display: inline-block; */
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: green;
+
+    visibility: hidden;
+    /* display: none; */
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+    /* display: inline-block; */
+}
