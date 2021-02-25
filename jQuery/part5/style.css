@@ -1,0 +1,10 @@
+#abir, #tabs{
+    width: 60%;
+    margin: 60px auto;
+}
+
+#tabs .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: red;
+    border-color: red ;
+}
+
