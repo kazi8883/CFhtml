@@ -1,0 +1,200 @@
+@media screen and (max-width: 1200px){
+    .row{
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .row{
+        width: 95%;
+        padding: 0 75px;
+    }
+    .grid-process-container,
+    .grid-work-container{
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(265px, auto);
+    }
+    .grid-work-items:nth-child(5){
+        grid-column: 1/2;
+    }
+    .paul{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid-about-container{
+        grid-template-columns: 1fr;
+    }
+    .paul{
+        width: 70%;
+    }
+    .grid-about-items{
+        text-align: center;
+    }
+    .grid-experience-container,
+    .grid-contact-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-testimonial-container{
+        grid-template-columns: 1fr;
+    }
+    .testimonial-items p{
+        width: 100%;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(385px, auto);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .work-filter button{
+        font-size: 120%;
+    }
+}
+@media screen and (max-width: 540px){
+    html,body{
+        font-size: 8px;
+    }
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .grid-about-items img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .grid-about-items p{
+        margin-left: 18px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(300px, auto);
+    }
+}
+
+@media screen and (max-width: 480px){
+    html,body{
+        font-size: 8px;
+    }
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .grid-about-items img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .grid-about-items p{
+        margin-left: 18px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(200px, auto);
+    }
+}
+@media screen and (max-width: 360px){
+    html,body{
+        font-size: 8px;
+    }
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .grid-about-items img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .grid-about-items p{
+        margin-left: 18px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(185px, auto);
+    }
+    .work-filter button{
+        font-size: 100%;
+        margin: 5px 0px;
+    }
+}
+@media screen and (max-width: 320px){
+    html,body{
+        font-size: 8px;
+    }
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .grid-about-items img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .grid-about-items p{
+        margin-left: 18px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(158px, auto);
+    }
+}
+
+@media screen and (max-width: 280px){
+    html,body{
+        font-size: 8px;
+    }
+    .row{
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    .grid-about-items img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .grid-about-items p{
+        margin-left: 18px;
+    }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-work-container{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(130px, auto);
+    }
+}
